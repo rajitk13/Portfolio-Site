@@ -17,7 +17,7 @@ const Projects = () => {
                 <p class="card-footer-item">
                   <span>
                     View on{" "}
-                    <a href="https://twitter.com/codinghorror/status/506010907021828096">
+                    <a href="https://rpm-saemuj.onrender.com" target={"blank"}>
                       Link
                     </a>
                   </span>
@@ -29,13 +29,16 @@ const Projects = () => {
             <div class="card">
               <div class="card-content">
                 <p class="title">Outpass Managment Portal</p>
-                <p class="subtitle">A Web Tech lab project to help hotel authorities to grant students permission to take leave</p>
+                <p class="subtitle">
+                  A Web Tech lab project to help hotel authorities to grant
+                  students permission to take leave
+                </p>
               </div>
               <footer class="card-footer">
                 <p class="card-footer-item">
                   <span>
                     View on{" "}
-                    <a href="https://twitter.com/codinghorror/status/506010907021828096">
+                    <a href="https://ghs-outpass.onrender.com" target={"blank"}>
                       Link
                     </a>
                   </span>
@@ -62,16 +65,22 @@ const Projects = () => {
             </div>
           </div>
           <div class="column">
-          <div class="card">
+            <div class="card">
               <div class="card-content">
                 <p class="title">Companionsy</p>
-                <p class="subtitle">a peer to peer study mate finding portal built during a hackathon</p>
+                <p class="subtitle">
+                  a peer to peer study mate finding portal built during a
+                  hackathon
+                </p>
               </div>
               <footer class="card-footer">
                 <p class="card-footer-item">
                   <span>
                     View on{" "}
-                    <a href="https://twitter.com/codinghorror/status/506010907021828096">
+                    <a
+                      href="https://github.com/4-Callback-Cats/Comapanionsy"
+                      target={"blank"}
+                    >
                       Link
                     </a>
                   </span>

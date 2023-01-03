@@ -1,20 +1,52 @@
 import React from "react";
 // import classes from "./Intro.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import "./intro.css";
-
 
 const Intro = () => (
   <>
-    <section className="hero is-warning is-medium">
+    <section className="hero is-dark is-medium custom">
       <div className="hero-body">
         <div className="container">
-          <p className="title">Rajit Kuthiala</p>
+          <p className="title" style={{ display: "inline" }}>
+            Rajit Kuthiala{" "}
+          </p>
+          <FontAwesomeIcon
+            icon={faArrowUpRightFromSquare}
+            style={{ display: "inline" }}
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1mmiIcBF7FNnikulqdpthUcUfSHio3BR2/view?usp=share_link",
+                "_blank"
+              )
+            }
+          />
+
           <p className="subtitle">Computer Science Student</p>
-          <i class="fab fa-github"></i>
-          <i className="fab fa-linkedin-in icon"></i>
-          <i className="fab fa-twitter icon"></i>
-          <i class="far fa-envelope icon"></i>
-          <p><i class="fas fa-map-pin location"></i> Delhi , India</p>
+          <i
+            class="fab fa-github"
+            onClick={() => window.open("https://github.com/rajitk13", "_blank")}
+          ></i>
+          <i
+            className="fab fa-linkedin-in icon"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1mmiIcBF7FNnikulqdpthUcUfSHio3BR2/view?usp=share_link",
+                "_blank"
+              )
+            }
+          ></i>
+          {/* <i className="fab fa-twitter icon"></i> */}
+          <i
+            class="far fa-envelope icon"
+            onClick={() =>
+              window.open("mailto:rajitkuthiala@gmail.com", "_blank")
+            }
+          ></i>
+          <p>
+            <i class="fas fa-map-pin location"></i> Delhi , India
+          </p>
         </div>
       </div>
     </section>

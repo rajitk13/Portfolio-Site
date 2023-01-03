@@ -1,37 +1,31 @@
 import * as React from "react";
+import "./header.css";
 
 const Header = () => {
   return (
-    <>
-      <nav
-        className="navbar is-warning"
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <div className="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <h1 class="title is-6">Rajit Kuthiala</h1>
+    <nav
+      className="navbar is-dark is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div id="navbarBasicExample" className="navbar-menu">
+        <div className="navbar-start">
+          <a class="navbar-item" href="/#">
+            Rajit Kuthiala
+          </a>
+          <a className="navbar-item" href="#edu">
+            Education
           </a>
 
-         
+          <a className="navbar-item" href="#certi">
+            Certification
+          </a>
+          <a className="navbar-item" href="#projects">
+            Projects
+          </a>
         </div>
-
-        <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-start">
-            <a className="navbar-item" href="#edu">
-              Education
-            </a>
-
-            <a className="navbar-item" href="#certi">
-              Certification
-            </a>
-            <a className="navbar-item" href="#projects">
-              Projects
-            </a>
-          </div>
-        </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 };
 
