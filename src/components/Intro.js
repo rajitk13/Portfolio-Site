@@ -6,8 +6,8 @@ import "./intro.css";
 
 const Intro = () => (
   <>
-    <section className="hero is-dark is-medium custom">
-      <div className="hero-body">
+
+      <div className="hero-body is-medium">
         <div className="container">
           <p className="title" style={{ display: "inline" }}>
             Rajit Kuthiala{" "}
@@ -49,7 +49,7 @@ const Intro = () => (
           </p>
         </div>
       </div>
-    </section>
+  
   </>
 );
 

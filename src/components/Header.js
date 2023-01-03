@@ -3,16 +3,20 @@ import "./header.css";
 
 const Header = () => {
   return (
+    <div class="hero-head">
     <nav
-      className="navbar is-dark is-fixed-top"
+      className="navbar"
       role="navigation"
       aria-label="main navigation"
     >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/#">
+          Rajit Kuthiala
+        </a>
+      </div>
+
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a class="navbar-item" href="/#">
-            Rajit Kuthiala
-          </a>
           <a className="navbar-item" href="#edu">
             Education
           </a>
@@ -26,6 +30,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 
