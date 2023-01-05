@@ -6,6 +6,7 @@ import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Certification from "./components/Certifications";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Header />
         <Intro />
       </section>
-
+      <Skills />
       <Education />
       <Certification />
       <Projects />
